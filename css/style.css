@@ -265,7 +265,7 @@ header.scrolled {
 }
 
 /* Hero Section */
-#hero {
+#hero, .tour-hero {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -273,6 +273,10 @@ header.scrolled {
     color: var(--white);
     text-align: center;
     overflow: hidden;
+}
+
+.tour-hero {
+    height: 60vh;
 }
 
 .hero-video-wrapper {

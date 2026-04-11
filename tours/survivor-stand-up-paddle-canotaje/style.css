@@ -2,7 +2,6 @@
 
 .tour-hero {
     height: 60vh;
-    background: url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2070&auto=format&fit=crop') center/cover no-repeat;
     display: flex;
     align-items: center;
     position: relative;
