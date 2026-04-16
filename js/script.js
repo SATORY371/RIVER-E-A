@@ -122,13 +122,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // --- 6. Clean URL from 'index.html' or empty '#' ---
-    const cleanURL = () => {
-        const url = window.location.href;
-        if (url.includes('index.html') || url.endsWith('#')) {
-            const cleanUrl = url.replace('index.html', '').replace(/#$/, '');
-            window.history.replaceState({}, document.title, cleanUrl);
-        }
-    };
     cleanURL();
 
 });
